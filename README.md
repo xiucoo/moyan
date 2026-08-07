@@ -2,6 +2,8 @@
 
 面向 macOS 的轻量 Markdown 笔记应用。笔记以本机文件夹中的 `.md` 文件存储，可选 iCloud Drive 多设备同步。
 
+![墨言界面：知识库、工作日志与 Cursor 提问](docs/screenshot.png)
+
 ## 特色功能
 
 ### 知识库
