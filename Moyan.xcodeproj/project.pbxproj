@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* MoyanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* MoyanApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* NoteModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* NoteModels.swift */; };
+		A10000000000000000000004 /* NoteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* NoteStore.swift */; };
+		A10000000000000000000005 /* MarkdownHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* MarkdownHighlighter.swift */; };
+		A10000000000000000000020 /* MarkdownImageSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000020 /* MarkdownImageSupport.swift */; };
+		A10000000000000000000021 /* MarkdownAutolink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000021 /* MarkdownAutolink.swift */; };
+		A10000000000000000000022 /* MarkdownColorSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000022 /* MarkdownColorSupport.swift */; };
+		A10000000000000000000025 /* MarkdownLinkEmbed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000025 /* MarkdownLinkEmbed.swift */; };
+		A10000000000000000000026 /* MarkdownTableSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000026 /* MarkdownTableSupport.swift */; };
+		A10000000000000000000027 /* MarkdownTableEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000027 /* MarkdownTableEditing.swift */; };
+		A10000000000000000000023 /* ColorStylePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000023 /* ColorStylePickerView.swift */; };
+		A10000000000000000000024 /* AISearchPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000024 /* AISearchPanelView.swift */; };
+		A10000000000000000000006 /* MarkdownTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* MarkdownTextView.swift */; };
+		A10000000000000000000007 /* MarkdownPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* MarkdownPreviewView.swift */; };
+		A10000000000000000000008 /* FolderSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* FolderSidebarView.swift */; };
+		A10000000000000000000009 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* NoteListView.swift */; };
+		A1000000000000000000000A /* EditorPaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* EditorPaneView.swift */; };
+		A1000000000000000000001F /* EditorFindReplaceBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001F /* EditorFindReplaceBar.swift */; };
+		A1000000000000000000000B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* SettingsView.swift */; };
+		A1000000000000000000000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* Assets.xcassets */; };
+		A10000000000000000000010 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* AppSettings.swift */; };
+		A10000000000000000000011 /* LibraryLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* LibraryLocation.swift */; };
+		A10000000000000000000012 /* MarkdownFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* MarkdownFormatter.swift */; };
+		A10000000000000000000028 /* WorkLogTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000028 /* WorkLogTitle.swift */; };
+		A10000000000000000000029 /* ChildNoteMarkerSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000029 /* ChildNoteMarkerSupport.swift */; };
+		A1000000000000000000002A /* MarkdownPlainPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000002A /* MarkdownPlainPreview.swift */; };
+		A10000000000000000000013 /* PDFExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* PDFExporter.swift */; };
+		A10000000000000000000014 /* EditorBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* EditorBridge.swift */; };
+		A10000000000000000000015 /* MarkdownToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* MarkdownToolbarView.swift */; };
+		A10000000000000000000016 /* MarkdownRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* MarkdownRenderer.swift */; };
+		A10000000000000000000017 /* TagBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* TagBarView.swift */; };
+		A10000000000000000000018 /* CursorAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* CursorAIService.swift */; };
+		A10000000000000000000019 /* AIAnalyzeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* AIAnalyzeView.swift */; };
+		A1000000000000000000001A /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001A /* AppIcon.icns */; };
+		A1000000000000000000002B /* WPSLinkSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000002B /* WPSLinkSupport.swift */; };
+		A1000000000000000000002C /* WPSOfficeSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000002C /* WPSOfficeSupport.swift */; };
+		A1000000000000000000002D /* XLSXWorkbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000002D /* XLSXWorkbook.swift */; };
+		A1000000000000000000002E /* WPSPreviewPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000002E /* WPSPreviewPane.swift */; };
+		A1000000000000000000002F /* QLPreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000002F /* QLPreviewContainer.swift */; };
+		A10000000000000000000030 /* SpreadsheetGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000030 /* SpreadsheetGridView.swift */; };
+		A10000000000000000000031 /* Empty.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000031 /* Empty.xlsx */; };
+		A10000000000000000000032 /* Empty.docx in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000032 /* Empty.docx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* MoyanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyanApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* NoteModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* NoteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* MarkdownHighlighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownHighlighter.swift; sourceTree = "<group>"; };
+		A20000000000000000000020 /* MarkdownImageSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownImageSupport.swift; sourceTree = "<group>"; };
+		A20000000000000000000021 /* MarkdownAutolink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownAutolink.swift; sourceTree = "<group>"; };
+		A20000000000000000000022 /* MarkdownColorSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownColorSupport.swift; sourceTree = "<group>"; };
+		A20000000000000000000025 /* MarkdownLinkEmbed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownLinkEmbed.swift; sourceTree = "<group>"; };
+		A20000000000000000000026 /* MarkdownTableSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownTableSupport.swift; sourceTree = "<group>"; };
+		A20000000000000000000027 /* MarkdownTableEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownTableEditing.swift; sourceTree = "<group>"; };
+		A20000000000000000000023 /* ColorStylePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStylePickerView.swift; sourceTree = "<group>"; };
+		A20000000000000000000024 /* AISearchPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AISearchPanelView.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* MarkdownTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownTextView.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* MarkdownPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownPreviewView.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* FolderSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderSidebarView.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* NoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* EditorPaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorPaneView.swift; sourceTree = "<group>"; };
+		A2000000000000000000001F /* EditorFindReplaceBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorFindReplaceBar.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000000000000000000000D /* Moyan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Moyan.entitlements; sourceTree = "<group>"; };
+		A2000000000000000000000E /* Moyan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moyan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000010 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* LibraryLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryLocation.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* MarkdownFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownFormatter.swift; sourceTree = "<group>"; };
+		A20000000000000000000028 /* WorkLogTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLogTitle.swift; sourceTree = "<group>"; };
+		A20000000000000000000029 /* ChildNoteMarkerSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildNoteMarkerSupport.swift; sourceTree = "<group>"; };
+		A2000000000000000000002A /* MarkdownPlainPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownPlainPreview.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* PDFExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFExporter.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* EditorBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorBridge.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* MarkdownToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownToolbarView.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* MarkdownRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownRenderer.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* TagBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagBarView.swift; sourceTree = "<group>"; };
+		A20000000000000000000018 /* CursorAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorAIService.swift; sourceTree = "<group>"; };
+		A20000000000000000000019 /* AIAnalyzeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAnalyzeView.swift; sourceTree = "<group>"; };
+		A2000000000000000000001A /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		A2000000000000000000002B /* WPSLinkSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPSLinkSupport.swift; sourceTree = "<group>"; };
+		A2000000000000000000002C /* WPSOfficeSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPSOfficeSupport.swift; sourceTree = "<group>"; };
+		A2000000000000000000002D /* XLSXWorkbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLSXWorkbook.swift; sourceTree = "<group>"; };
+		A2000000000000000000002E /* WPSPreviewPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPSPreviewPane.swift; sourceTree = "<group>"; };
+		A2000000000000000000002F /* QLPreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLPreviewContainer.swift; sourceTree = "<group>"; };
+		A20000000000000000000030 /* SpreadsheetGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetGridView.swift; sourceTree = "<group>"; };
+		A20000000000000000000031 /* Empty.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Empty.xlsx; sourceTree = "<group>"; };
+		A20000000000000000000032 /* Empty.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Empty.docx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* Moyan */,
+				A40000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* Moyan */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* MoyanApp.swift */,
+				A20000000000000000000002 /* ContentView.swift */,
+				A40000000000000000000004 /* Models */,
+				A40000000000000000000005 /* Store */,
+				A40000000000000000000006 /* Views */,
+				A40000000000000000000008 /* AI */,
+				A40000000000000000000007 /* Utilities */,
+				A40000000000000000000009 /* Resources */,
+				A2000000000000000000000C /* Assets.xcassets */,
+				A2000000000000000000000D /* Moyan.entitlements */,
+			);
+			path = Moyan;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000009 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000001A /* AppIcon.icns */,
+				A20000000000000000000031 /* Empty.xlsx */,
+				A20000000000000000000032 /* Empty.docx */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000E /* Moyan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000010 /* AppSettings.swift */,
+				A20000000000000000000003 /* NoteModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000005 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000014 /* EditorBridge.swift */,
+				A20000000000000000000004 /* NoteStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000015 /* MarkdownToolbarView.swift */,
+				A20000000000000000000023 /* ColorStylePickerView.swift */,
+				A20000000000000000000024 /* AISearchPanelView.swift */,
+				A20000000000000000000017 /* TagBarView.swift */,
+				A20000000000000000000019 /* AIAnalyzeView.swift */,
+				A20000000000000000000008 /* FolderSidebarView.swift */,
+				A20000000000000000000009 /* NoteListView.swift */,
+				A2000000000000000000000A /* EditorPaneView.swift */,
+				A2000000000000000000002E /* WPSPreviewPane.swift */,
+				A2000000000000000000002F /* QLPreviewContainer.swift */,
+				A20000000000000000000030 /* SpreadsheetGridView.swift */,
+				A2000000000000000000001F /* EditorFindReplaceBar.swift */,
+				A20000000000000000000006 /* MarkdownTextView.swift */,
+				A20000000000000000000007 /* MarkdownPreviewView.swift */,
+				A2000000000000000000000B /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000007 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000011 /* LibraryLocation.swift */,
+				A20000000000000000000012 /* MarkdownFormatter.swift */,
+				A20000000000000000000028 /* WorkLogTitle.swift */,
+				A20000000000000000000029 /* ChildNoteMarkerSupport.swift */,
+				A2000000000000000000002B /* WPSLinkSupport.swift */,
+				A2000000000000000000002C /* WPSOfficeSupport.swift */,
+				A2000000000000000000002D /* XLSXWorkbook.swift */,
+				A2000000000000000000002A /* MarkdownPlainPreview.swift */,
+				A20000000000000000000016 /* MarkdownRenderer.swift */,
+				A20000000000000000000013 /* PDFExporter.swift */,
+				A20000000000000000000005 /* MarkdownHighlighter.swift */,
+				A20000000000000000000020 /* MarkdownImageSupport.swift */,
+				A20000000000000000000021 /* MarkdownAutolink.swift */,
+				A20000000000000000000022 /* MarkdownColorSupport.swift */,
+				A20000000000000000000025 /* MarkdownLinkEmbed.swift */,
+				A20000000000000000000026 /* MarkdownTableSupport.swift */,
+				A20000000000000000000027 /* MarkdownTableEditing.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000008 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000018 /* CursorAIService.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* Moyan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70000000000000000000003 /* Build configuration list for PBXNativeTarget "Moyan" */;
+			buildPhases = (
+				A60000000000000000000001 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+				A60000000000000000000002 /* Resources */,
+				A60000000000000000000003 /* Ensure Full AppIcon */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moyan;
+			productName = Moyan;
+			productReference = A2000000000000000000000E /* Moyan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = A70000000000000000000001 /* Build configuration list for PBXProject "Moyan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = A40000000000000000000001;
+			productRefGroup = A40000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* Moyan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000C /* Assets.xcassets in Resources */,
+				A1000000000000000000001A /* AppIcon.icns in Resources */,
+				A10000000000000000000031 /* Empty.xlsx in Resources */,
+				A10000000000000000000032 /* Empty.docx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A60000000000000000000003 /* Ensure Full AppIcon */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Moyan/Resources/AppIcon.icns",
+			);
+			name = "Ensure Full AppIcon";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# actool 精简后的 icns 可能缺大尺寸，用完整 AppIcon.icns 覆盖，避免 Dock 仍显示占位/旧图\nSRC=\"${SRCROOT}/Moyan/Resources/AppIcon.icns\"\nDST=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Resources/AppIcon.icns\"\nif [ -f \"$SRC\" ]; then\n  cp -f \"$SRC\" \"$DST\"\n  # 触碰 bundle，促使 LaunchServices 重新读图标\n  /usr/bin/touch \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* MoyanApp.swift in Sources */,
+				A10000000000000000000002 /* ContentView.swift in Sources */,
+				A10000000000000000000003 /* NoteModels.swift in Sources */,
+				A10000000000000000000004 /* NoteStore.swift in Sources */,
+				A10000000000000000000005 /* MarkdownHighlighter.swift in Sources */,
+				A10000000000000000000020 /* MarkdownImageSupport.swift in Sources */,
+				A10000000000000000000021 /* MarkdownAutolink.swift in Sources */,
+				A10000000000000000000022 /* MarkdownColorSupport.swift in Sources */,
+				A10000000000000000000025 /* MarkdownLinkEmbed.swift in Sources */,
+				A10000000000000000000026 /* MarkdownTableSupport.swift in Sources */,
+				A10000000000000000000027 /* MarkdownTableEditing.swift in Sources */,
+				A10000000000000000000006 /* MarkdownTextView.swift in Sources */,
+				A10000000000000000000007 /* MarkdownPreviewView.swift in Sources */,
+				A10000000000000000000008 /* FolderSidebarView.swift in Sources */,
+				A10000000000000000000009 /* NoteListView.swift in Sources */,
+				A1000000000000000000000A /* EditorPaneView.swift in Sources */,
+				A1000000000000000000001F /* EditorFindReplaceBar.swift in Sources */,
+				A1000000000000000000000B /* SettingsView.swift in Sources */,
+				A10000000000000000000010 /* AppSettings.swift in Sources */,
+				A10000000000000000000011 /* LibraryLocation.swift in Sources */,
+				A10000000000000000000012 /* MarkdownFormatter.swift in Sources */,
+				A10000000000000000000028 /* WorkLogTitle.swift in Sources */,
+				A10000000000000000000029 /* ChildNoteMarkerSupport.swift in Sources */,
+				A1000000000000000000002B /* WPSLinkSupport.swift in Sources */,
+				A1000000000000000000002C /* WPSOfficeSupport.swift in Sources */,
+				A1000000000000000000002D /* XLSXWorkbook.swift in Sources */,
+				A1000000000000000000002E /* WPSPreviewPane.swift in Sources */,
+				A1000000000000000000002F /* QLPreviewContainer.swift in Sources */,
+				A10000000000000000000030 /* SpreadsheetGridView.swift in Sources */,
+				A1000000000000000000002A /* MarkdownPlainPreview.swift in Sources */,
+				A10000000000000000000013 /* PDFExporter.swift in Sources */,
+				A10000000000000000000014 /* EditorBridge.swift in Sources */,
+				A10000000000000000000015 /* MarkdownToolbarView.swift in Sources */,
+				A10000000000000000000023 /* ColorStylePickerView.swift in Sources */,
+				A10000000000000000000024 /* AISearchPanelView.swift in Sources */,
+				A10000000000000000000016 /* MarkdownRenderer.swift in Sources */,
+				A10000000000000000000017 /* TagBarView.swift in Sources */,
+				A10000000000000000000019 /* AIAnalyzeView.swift in Sources */,
+				A10000000000000000000018 /* CursorAIService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A90000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A90000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A90000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Moyan/Moyan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 29;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "墨言";
+				INFOPLIST_KEY_CFBundleIconFile = AppIcon;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.moyan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A90000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Moyan/Moyan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 29;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "墨言";
+				INFOPLIST_KEY_CFBundleIconFile = AppIcon;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.moyan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70000000000000000000001 /* Build configuration list for PBXProject "Moyan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90000000000000000000001 /* Debug */,
+				A90000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000000000000000000003 /* Build configuration list for PBXNativeTarget "Moyan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90000000000000000000003 /* Debug */,
+				A90000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80000000000000000000001 /* Project object */;
+}
